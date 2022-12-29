@@ -12,3 +12,4 @@
 ###   - What geographic regions and states have the highest number of drivers in fatal collisions per billion miles?
 ###   - Can I compare various regions or states with each other based on number of drivers in fatal collisions per billion miles?
 ###   - Can I see what states are grouped into low, medium, and high levels of drivers in fatal collisions per billion miles?
+### --> graph output with widgets: shiny-app-graph.png
