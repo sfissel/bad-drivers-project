@@ -7,7 +7,7 @@
 ### Question 1: What states and geographical regions have the highest number of car accidents?
 ### Question 2: Is there a relationship between insurance company losses and driver insurance premiums?
 
-## Part 2: Creating an interactive Shiny App of a graph
+## Part 2: Creating an interactive Shiny App of a graph that answers the following questions
 ### Questions:
 ###   - What geographic regions and states have the highest number of drivers in fatal collisions per billion miles?
 ###   - Can I compare various regions or states with each other based on number of drivers in fatal collisions per billion miles?
