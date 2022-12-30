@@ -399,21 +399,21 @@ boxplot(bad_drivers$Number.of.drivers.involved.in.fatal.collisions.per.billion.m
         main = "Number of Drivers Involved in Fatal Collisions per Billion Miles")
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-7-1.png)<!-- -->
+![](graphs-part1/boxplot1)<!-- -->
 
 ``` r
 boxplot(bad_drivers$Car.Insurance.Premiums....,
         main = "Car Insurance Premiums")
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-7-2.png)<!-- -->
+![](graphs-part1/boxplot2)<!-- -->
 
 ``` r
 boxplot(bad_drivers$Losses.incurred.by.insurance.companies.for.collisions.per.insured.driver....,
         main = "Losses Incurred by Insurance Companies for Collisions per Insured Driver")
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-7-3.png)<!-- -->
+![](graphs-part1/boxplot3)<!-- -->
 
 ``` r
 bad_drivers1 <- subset(bad_drivers, select = -c(Percentage.Of.Drivers.Involved.In.Fatal.Collisions.Who.Were.Speeding,
@@ -448,7 +448,7 @@ ggplot(summary_stats1, aes(x=1))+
                stat = "identity")
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-9-1.png)<!-- -->
+![](graphs-part1/boxplot4)<!-- -->
 
 ## **SUMMARY FOR CAR INSURANCE PREMIUMS**
 
@@ -471,7 +471,7 @@ ggplot(summary_stats2, aes(x=1))+
                stat = "identity")
 ```
 
-![png](bad-drivers-part1_files/figure-gfm/unnamed-chunk-10-1.png)<!-- -->
+![png](graphs-part1/boxplot5)<!-- -->
 
 ## **SUMMARY FOR LOSSES INCURRED BY INSURANCE COMPANIES FOR COLLISIONS PER INSURED DRIVER**
 
@@ -494,7 +494,7 @@ ggplot(summary_stats3, aes(x=1))+
                stat = "identity")
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-11-1.png)<!-- -->
+![](graphs-part1/boxplot6)<!-- -->
 
 # Objective 1
 
@@ -525,7 +525,7 @@ byregion<- ggplot(bad_drivers, aes(x=regions, y=`Number of drivers involved in f
 byregion
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-13-1.png)<!-- -->
+![](graphs-part1/accidents-vs-region)<!-- -->
 
 > Southern Region leads in number of drivers involved in fatal
 > collisions per billion miles
