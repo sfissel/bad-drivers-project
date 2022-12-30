@@ -513,7 +513,7 @@ question1 <- ggplot(bad_drivers, aes(x=State, y=`Number of drivers involved in f
 question1
 ```
 
-![](accidents-vs-state.png)<!-- -->
+![](graphs/accidents-vs-state.png)<!-- -->
 
 ## **Results (by Region)**
 
