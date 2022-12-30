@@ -513,7 +513,7 @@ question1 <- ggplot(bad_drivers, aes(x=State, y=`Number of drivers involved in f
 question1
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-12-1.png)<!-- -->
+![](accidents-vs-state.png)<!-- -->
 
 ## **Results (by Region)**
 
@@ -550,7 +550,7 @@ question2 <- ggplot(bad_drivers, aes(x=`Losses incurred by insurance companies f
 question2
 ```
 
-![](bad-drivers-part1_files/figure-gfm/unnamed-chunk-15-1.png)<!-- -->
+![](graphs/collisions-vs-area.png)<!-- -->
 
 > Strong correlation found between premiums and losses in Midwest Region
 
